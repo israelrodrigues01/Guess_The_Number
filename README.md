@@ -20,6 +20,11 @@
 - [x] **Dicas Visuais:** Três luzes LED mostram se o chute foi maior ou menor que o número secreto, caso seja igual o jogador vence.
 
 
+## Screenshots
+
+![image](https://github.com/israelrodrigues01/Guess_The_Number/assets/106749169/8dc82ba3-ce7c-4acd-a157-c39bda62d417)
+
+
 ## Como Jogar
 
   <p>1. Inicie o jogo. O jogador 1 começa.</p>
@@ -30,4 +35,3 @@
   <p>6. Caso o número digitado seja maior ou menor, passa a vez para o próximo jogador.</p>
   <p>7. Repita os passos 2 a 6 até que um jogador acerte o número.</p>
   <p>8. O jogador que acertar primeiro, ganha.</p>
-
