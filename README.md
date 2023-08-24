@@ -3,9 +3,11 @@
 
 ## Um jogo de adivinhação binária para dois jogadores baseado em conceitos de circuitos digitais.
 
+
 ### Sobre o Jogo
 
-O "Guess The Number" é um desafio onde dois jogadores competem para adivinhar um número de 4 bits escolhido aleatoriamente. Cada jogador terá a oportunidade de fazer um palpite em formato binário, e o jogo fornecerá feedback sobre se o número chutado é maior, menor ou se o jogador acertou o número correto. O jogador que adivinhar o número primeiro é o vencedor.
+<p>O "Guess The Number" é um desafio onde dois jogadores competem para adivinhar um número de 4 bits escolhido aleatoriamente. Cada jogador terá a oportunidade de fazer um palpite em formato binário, e o jogo fornecerá feedback sobre se o número chutado é maior, menor ou se o jogador acertou o número correto. O jogador que adivinhar o número primeiro é o vencedor.</p>
+
 
 ### Como Funciona
 
@@ -16,6 +18,7 @@ O "Guess The Number" é um desafio onde dois jogadores competem para adivinhar u
 - [x] **Confirmação:** Após fazer o chute, o jogador pressiona um botão para confirmar sua escolha.
 
 - [x] **Dicas Visuais:** Três luzes LED mostram se o chute foi maior ou menor que o número secreto, caso seja igual o jogador vence.
+
 
 ### Como Jogar
 
