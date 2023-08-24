@@ -21,27 +21,13 @@
 
 
 ## Como Jogar
-```
-  1. Inicie o jogo. O jogador 1 começa.
-```
-```
-  2. Pressione o botão de alternância para definir o jogador ativo (0 para jogador 1, 1 para jogador 2).
-```
-```
-  3. O jogador ativo pressiona quatro botões para fazer um chute binário.
-```
-```
-  4. Depois, pressiona o botão de confirmação.
-```
-```
-  5. O número é mostrado em um display e as luzes LED indicam se o chute foi maior, igual ou menor que o número secreto.
-```
-```
-  6. Caso o número digitado seja maior ou menor, passa a vez para o próximo jogador.
-```
-```
-  7. Repita os passos 2 a 6 até que um jogador acerte o número.
-```
-```
-  8. O jogador que acertar primeiro, ganha.
-```
+
+  <p>1. Inicie o jogo. O jogador 1 começa.</p>
+  <p>2. Pressione o botão de alternância para definir o jogador ativo (0 para jogador 1, 1 para jogador 2).</p>
+  <p>3. O jogador ativo pressiona quatro botões para fazer um chute binário.</p>
+  <p>4. Depois, pressiona o botão de confirmação.</p>
+  <p>5. O número é mostrado em um display e as luzes LED indicam se o chute foi maior, igual ou menor que o número secreto.</p>
+  <p>6. Caso o número digitado seja maior ou menor, passa a vez para o próximo jogador.</p>
+  <p>7. Repita os passos 2 a 6 até que um jogador acerte o número.</p>
+  <p>8. O jogador que acertar primeiro, ganha.</p>
+
