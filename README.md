@@ -1,7 +1,7 @@
 
 # Guess The Number
 
-## Um jogo de adivinhação binária para dois jogadores baseado em conceitos de circuitos digitais.
+<p>Um jogo de adivinhação binária para dois jogadores baseado em conceitos de circuitos digitais.</p>
 
 
 ### Sobre o Jogo
