@@ -49,13 +49,19 @@ Então este componente é uma função que indica qual número será comparado.<
 <p>O componente maiorque terá a função de informar qual dos dois números é maior, A ou B. Então ele recebe quatro entradas (4 bits) do número A e quatro entradas de B e retorna 1 se A > B (A maior que B) e 0 caso contrário.</p>
 
 - **menorque:**
-<p>Para o componente menorque usamos o componente maiorque e invertemos as entradas, pois onde era o número A colocamos B e onde era B colocamos A, logo retornado 1 se B > A e 0 caso contrário.</p>
+<p>Para o componente menorque usamos o componente maiorque e invertemos as entradas, pois onde era o número A colocamos B e onde era B colocamos A, logo retorna 1 se B > A e 0 caso contrário.</p>
 
 - **comparador:**
 <p>O componente comparador agrupa os três componentes anteriores (igualdade, maiorque e menorque), e retornar três saídas: Se o número entrada (E) é maior que o número secreto (S), então E > S retorna maior, se não se E < S retorna menor, se não retorna igual (S == E).</p>
 
 - **game:**
-<p>O componte game é o que faz a junção de todos os outros componentes anteriores e tem toda a mágica do projeto. Ele tem 10 entradas e 3 saídas, 8 entradas são dos números do jogador A e B, já as outras duas são para identificar qual número entrar (função do mux), A ou B, e qual momento jogar, quando for 1 indica que o jogador da vez quer ver seu palpite. As três saídas são as mesmas do comparador: maior, menor e igualdade. Dentro mesmo do componente, tem o número secreto, onde por ele vão ser feitas as comparações anteriores.</p>
+<p>O componente game é o que faz a junção de todos os outros componentes anteriores e tem toda a mágica do projeto. Ele tem 10 entradas e 3 saídas, 8 entradas são dos números do jogador A e B, já as outras duas são para identificar qual número entrar (função do mux), A ou B, e qual momento jogar, quando for 1 indica que o jogador da vez quer ver seu palpite. As três saídas são as mesmas do comparador: maior, menor e igualdade. Dentro mesmo do componente, tem o número secreto, onde por ele vão ser feitas as comparações anteriores.</p>
 
 - **decode:**
-<p>O componente decode é o responsável por fazer todo o display de sete segmentos funcionar, ele é a junção de outros componentes que indica qual segemento do display ligar e mostrar qual número em quatro bits em hexadecimanl. Então ele faz com que o display mostre valores de 0 ao 9 e de A ao F.</p>
+<p>O componente decode é o responsável por fazer todo o display de sete segmentos funcionar, ele é a junção de outros componentes que indica qual segmento do display ligar e mostrar qual número em quatro bits em hexadecimal. Então ele faz com que o display mostre valores de 0 ao 9 e de A ao F.</p>
+
+
+## Documentação
+
+<p>Disponível em: https://docs.google.com/document/d/10vjvVhAi29uzvd6Dxgp9YEu7-l8RR0a8fC_9Anu2z3I/edit?usp=sharing</p>
+
