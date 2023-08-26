@@ -38,7 +38,7 @@
 
 ## Funções (Componentes)
 - **mux:**
-<p>O componente mux (multiplexador), trata qual será a vez a do jogador, controloando por meio dos bits 0 (jogador 1) e o 1 (jogador 2). 
+<p>O componente mux (multiplexador), trata qual será a vez a do jogador, controlando por meio dos bits 0 (jogador 1) e o 1 (jogador 2). 
 Então este componente é uma função que indica qual número será comparado.</p>
 
 - **igualdade:**
@@ -55,7 +55,7 @@ Então este componente é uma função que indica qual número será comparado.<
 <p>O componente comparador agrupa os três componentes anteriores (igualdade, maiorque e menorque), e retornar três saídas: Se o número entrada (E) é maior que o número secreto (S), então E > S retorna maior, se não se E < S retorna menor, se não retorna igual (S == E).</p>
 
 - **game:**
-<p>O componte game é que faz a junção de todos os outros anteriores e tem toda a mágica do projeto. Ele tem 10 entradas e 3 saídas, 8 entradas são dos números do A e B, já as outras duas são para indentificar qual número entrar (função do mux) A ou B e qual momento jogar, quando for 1 indica que o jogador da vez quer ver seu palpite. As três saídas são as mesmas do comparador: Maior, menor e igualdade. Dentro mesmo do componente, tem o número secreto, onde por ele vai ter toda a comparação.</p>
+<p>O componte game é o que faz a junção de todos os outros anteriores e tem toda a mágica do projeto. Ele tem 10 entradas e 3 saídas, 8 entradas são dos números do A e B, já as outras duas são para indentificar qual número entrar (função do mux) A ou B e qual momento jogar, quando for 1 indica que o jogador da vez quer ver seu palpite. As três saídas são as mesmas do comparador: Maior, menor e igualdade. Dentro mesmo do componente, tem o número secreto, onde por ele vai ter toda a comparação.</p>
 
 - **decode:**
 <p>O componente decode é o responsável por fazer todo o display de sete segmentos funcionar, ele é a junção de outros componentes que indica qual segemento do display ligar e mostrar qual número em quatro bits em hexadecimanl. Então ele faz com que o display mostre valores de 0 ao 9 e de A ao F.</p>
