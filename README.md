@@ -3,9 +3,9 @@
 
 <p>Um jogo de adivinhação binária para dois jogadores baseado em conceitos de circuitos digitais.</p>
 
-<img src="assets/projeto.png" width="100">
+<img src="assets/projeto.png" width="700">
 
-<img src="assets/projeto.gif" width="100">
+<img src="assets/projeto.gif" width="700">
 
 
 ## Sobre o Jogo
@@ -22,11 +22,6 @@
 - [x] **Confirmação:** Após fazer o chute, o jogador pressiona um botão para confirmar sua escolha.
 
 - [x] **Dicas Visuais:** Três luzes LED mostram se o chute foi maior ou menor que o número secreto, caso seja igual o jogador vence.
-
-
-## Screenshots
-
-![image](https://github.com/israelrodrigues01/Guess_The_Number/assets/106749169/8dc82ba3-ce7c-4acd-a157-c39bda62d417)
 
 
 ## Como Jogar
