@@ -3,6 +3,10 @@
 
 <p>Um jogo de adivinhação binária para dois jogadores baseado em conceitos de circuitos digitais.</p>
 
+<img src="assets/projeto.png" width="100">
+
+<img src="assets/projeto.gif" width="100">
+
 
 ## Sobre o Jogo
 
@@ -63,5 +67,4 @@ Então este componente é uma função que indica qual número será comparado.<
 
 ## Documentação
 
-<p>Disponível em: https://docs.google.com/document/d/10vjvVhAi29uzvd6Dxgp9YEu7-l8RR0a8fC_9Anu2z3I/edit?usp=sharing</p>
-
+Disponível em: [Documento](https://docs.google.com/document/d/10vjvVhAi29uzvd6Dxgp9YEu7-l8RR0a8fC_9Anu2z3I/edit?usp=sharing)
